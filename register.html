@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <h1>Restaurant Registration Form</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+       
+        <li><a href="register.html">Register</a></li>
+    </ul>
+    </nav>
+  </header>
+  <section class="form-container">
+    <form action="#" method="post">
+      <div class="form-group">
+        <label for="restaurant-name">Restaurant Name</label>
+        <input type="text" id="restaurant-name" name="restaurant-name" placeholder="Enter your restaurant's name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="location">Location</label>
+        <input type="text" id="location" name="location" placeholder="Enter the location" required>
+      </div>
+
+      <div class="form-group">
+        <label for="contact-number">Contact Number</label>
+        <input type="tel" id="contact-number" name="contact-number" placeholder="Enter your contact number" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="cuisine-type">Cuisine Type</label>
+        <select id="cuisine-type" name="cuisine-type" required>
+          <option value="italian">Italian</option>
+          <option value="chinese">Chinese</option>
+          <option value="indian">Indian</option>
+          <option value="mexican">Mexican</option>
+          <option value="american">American</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="website">Website (Optional)</label>
+        <input type="url" id="website" name="website" placeholder="Enter your website (optional)">
+      </div>
+
+      <div class="form-group">
+        <label for="opening-hours">Opening Hours</label>
+        <input type="text" id="opening-hours" name="opening-hours" placeholder="Enter opening hours (e.g., 9 AM - 9 PM)" required>
+      </div>
+
+      <div class="form-group">
+        <label for="restaurant-description">Restaurant Description</label>
+        <textarea id="restaurant-description" name="restaurant-description" placeholder="Describe your restaurant" rows="4" required></textarea>
+      </div>
+
+      <button type="submit" class="submit-btn">Register Restaurant</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Restaurant Registration. All rights reserved.</p>
+  </footer>
+</body>
+</html>
